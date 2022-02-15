@@ -1,0 +1,132 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(9, 63, 94);
+}
+h1, h2, h3 {
+    color:rgb(9, 63, 94);
+    font-family: Rubik, sans-serif;
+}
+body {
+    background-color: rgb(223, 232, 238) !important;
+}
+.head{
+    color:white;
+    height:600px;
+    padding:100px;
+    background: rgb(19, 132, 197);
+}
+.fullname{
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+}
+.rolename{
+    color: white;
+    font-weight: 400;
+}
+.section-name{
+    color: rgb(9, 63, 94);
+    font-weight: 400;
+    text-align: left;
+    font-size: 36px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.content{
+    padding: 0 150px !important;
+}
+.profile-picture{
+    border-radius: 50%;
+    max-width: 15%;
+    height: auto;
+}
+.main-info{
+    padding-top: 80px;
+}
+.main-response{
+    padding-top: 40px;
+}
+.socials-section{
+    padding: 0px !important;
+    height: 100px;
+}
+.socials-section a {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.main-response-container{
+    border-radius: 25px;
+    background: white
+}
+.main-response-text{
+    font-size: 18px;
+    color: rgb(9, 63, 94);
+    padding: 40px;
+    margin: 0px;
+}
+.main-response-text pre{
+    margin-bottom: 0px;
+}
+.skills{
+    list-style: none;
+    font-size:64px;
+    padding: 0;
+}
+.socials-section a, .socials-section a:visited{
+    color:white;
+}
+.socials-section a:hover, .socials-section a:active{
+    color: rgb(9, 63, 94);
+}
+.socials-section.active a{
+    color:white;
+}
+.about-me{
+    text-align: justify;
+}
+.skills-section{
+    justify-content: space-around;
+}
+.skills-icon{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height:96px;
+}
+.skills-icon i{
+    color: rgb(19, 132, 197);
+}
+.skills-caption{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.skills-techs{
+    font-size: 16px;
+    text-align: center;
+}
+.projects div{
+    padding: 0 !important;
+    margin-bottom: 50px;
+}
+.project-name{
+    font-weight: 300;
+}
+.project-desc{
+    text-align: justify;
+}
+.project-badges span{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 35px !important;
+}
+.project-badges span:not(.project-year){
+    background-color: rgb(9, 63, 94) !important;
+}
+.project-badges a{
+    margin-right: 10px;
+}
+.project-year{
+    background-color: rgb(19, 132, 197);
+}
