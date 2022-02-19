@@ -44,6 +44,7 @@ const projects = [
 ]
 
 function fetchproject() {
+    projects.reverse()
     let selector = $(".projects")
     let techs
     selector.append('<h1 class="section-name">PROJECTS</h1>')
