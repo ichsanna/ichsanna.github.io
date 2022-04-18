@@ -40,6 +40,15 @@ const projects = [
             "developed this project along with my 2 friends as a Capstone Project(Undergraduate Thesis). We added " +
             "and developed a postproduction warehouse management system into SIGAP which consists of features " +
             "such as book stock, book asset, book receive, book transfer, book order, and book transaction."
+    },
+    {
+        name: "URL Shortener",
+        year: "2022",
+        github: "https://github.com/ichsanna/URL-Shortener",
+        website: "",
+        tech: ["NodeJS", "ExpressJS", "MongoDB"],
+        description: "A project i build to learn HTML & CSS as well as my NodeJS skills." +
+            "This application creates a short and simple URL and redirects the user who visits it to the original one"
     }
 ]
 
