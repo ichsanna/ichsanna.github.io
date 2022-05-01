@@ -169,3 +169,12 @@ pre{
 .project-year{
     background-color: rgb(19, 132, 197);
 }
+.project-badges a i, .project-badges a i:visited{
+    color:rgb(19, 132, 197);
+}
+.project-badges a i:hover, .project-badges a i:active{
+    color: rgb(0, 103, 168);
+}
+.project-badges a i.active{
+    color:rgb(19, 132, 197);
+}
