@@ -47,8 +47,8 @@ const projects = [
         github: "https://github.com/ichsanna/URL-Shortener",
         website: "",
         tech: ["NodeJS", "ExpressJS", "MongoDB"],
-        description: "A project i build to learn HTML & CSS as well as my NodeJS skills." +
-            "This application creates a short and simple URL and redirects the user who visits it to the original one"
+        description: "A project i built to learn HTML & CSS as well as my NodeJS skills." +
+            "This application main purpose is to shorten long URLs and provides the user to share and manage these shortened URLs"
     }
 ]
 
@@ -61,25 +61,29 @@ function fetchproject() {
         techs = ""
         github = ""
         website = ""
+        // Tech badge
         for (j = 0; j < projects[i].tech.length; j++) {
             techs += '<span class="badge">' + projects[i].tech[j] + '</span>'
         }
+        // Display github link
         if (projects[i].github) {
             github = '<a href="' + projects[i].github + '" target="_blank">' +
                 '<i class="fa-brands fa-github fa-2x"></i>' +
                 '</a>'
         }
+        // Display website link
         if (projects[i].website) {
             website = '<a href="' + projects[i].website + '" target="_blank">' +
                 '<i class="fa-solid fa-up-right-from-square fa-2x"></i>' +
                 '</a>'
         }
+        // Display project name & description
         selector.append(
             '<div class="container">' +
             '<h3 class="project-name">' + projects[i].name + '</h3>' +
             '<p class="project-desc">' + projects[i].description +
             '</p>' +
-            '<div class="container d-flex project-badges">' +
+            '<div class="container d-flex flex-wrap align-content-start project-badges">' +
             '<span class="badge project-year">' + projects[i].year + '</span>' +
             github + website +
             '<span class="vr"></span>' +
