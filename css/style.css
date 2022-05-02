@@ -31,7 +31,10 @@ pre{
     }
     .head{
         padding-top: 10px !important;
-        height: 700px !important;
+        height: 650px !important;
+    }
+    .fullname{
+        font-size: 12vw !important;
     }
     .section-name{
         text-align: center !important;

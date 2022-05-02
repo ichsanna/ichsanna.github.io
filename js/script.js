@@ -48,7 +48,7 @@ const projects = [
         website: "",
         tech: ["NodeJS", "ExpressJS", "MongoDB"],
         description: "A project i built to learn HTML & CSS as well as my NodeJS skills." +
-            "This application main purpose is to shorten long URLs and provides the user to share and manage these shortened URLs"
+            "This application main purpose is to shorten long URLs and allows the user to share and manage these shortened URLs"
     }
 ]
 
